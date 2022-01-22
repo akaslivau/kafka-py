@@ -1,0 +1,22 @@
+{
+  "commitMessage": "Это новый коммит для проверки еще раз 2222",
+  "branchName": "abc",
+  "confElementBrief": "testvv",
+  "commitFiles": [
+    {
+      "content": "Aaaaaaaaaaaaaaaaaa",
+      "encoding": 0,
+      "filePath": "file5.txt"
+    },
+              {
+      "content": "Ещё файл.\nТекст со второй строки",
+      "encoding": 0,
+      "filePath": "file6.txt"
+    },
+              {
+      "content": "И ещё файл.",
+      "encoding": 0,
+      "filePath": "folder1/file8.txt"
+    }
+  ]
+}
