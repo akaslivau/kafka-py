@@ -1,0 +1,11 @@
+{
+  "repository": "release",
+  "images": [
+    "testsuperimage"
+  ],
+  "runTypeId": 1,
+  "day": null,
+  "hour": null,
+  "minute": null,
+  "grade": "3"
+}
