@@ -1,0 +1,21 @@
+{
+  "dQPBCPlatformReplyList": [
+    {
+      "dQPBCBrief": {
+        "pbcBriefName": "Address reference of GAR",
+        "pbcShortName": "QGAR",
+        "pbcLocalName": "Справочник адресов ГАР",
+        "pbcSysName": "QGAR",
+        "pbcId": 1616739783942
+      },
+      "dQPBCPlatformBrief": {
+        "id": 11,
+        "typeId": 4,
+        "platformLocalName": "Кросс-продуктовые справочники",
+        "platformSysName": "Q.Reference",
+        "platformTypeLocalName": "Кросс-продуктовая"
+      },
+      "microServName": "qgar"
+    }
+  ]
+}

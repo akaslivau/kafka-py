@@ -26,8 +26,7 @@ message = ''
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('specialMark', b'send-manually-by-didyk'),
-    ('command', b'add-rule-command')
+    ('specialMark', b'send-manually-by-didyk')
 ]
 
 #  SOURCE CODE

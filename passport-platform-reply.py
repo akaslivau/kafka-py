@@ -18,16 +18,15 @@ broker = '192.168.31.189:9092'
 #
 #
 #
-topic = 'dq-qis-add-image-rule'
+topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
 
 readFromFile = True
-fileName = 'payloads/add-replication-rule.json'
+fileName = 'payloads/platform-single-reply.json'
 message = ''
 
 headers = [
-    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('specialMark', b'send-manually-by-didyk'),
-    ('dqCommandName', b'create-replication-rule')
+    ('dqMessageGuid', str.encode('0b08a59b-5feb-48d7-b949-f076b568de49')),
+    ('specialMark', b'send-manually-by-didyk')
 ]
 
 #  SOURCE CODE
