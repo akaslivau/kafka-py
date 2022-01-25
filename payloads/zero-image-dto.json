@@ -1,0 +1,241 @@
+{
+  "id": 202,
+  "name": "test_25_01_22",
+  "description": "test",
+  "createRelatedObjects": true,
+  "stand": {
+    "id": 10,
+    "name": "bankdemo",
+    "description": "1",
+    "is2layer": false,
+    "is3layer": false,
+    "isClient": true,
+    "isDC": false,
+    "isInternal": false,
+    "isMSA": true,
+    "status": {
+      "id": 1,
+      "name": "Доступен"
+    },
+    "standType": {
+      "id": 1,
+      "name": "demo"
+    },
+    "owner": {
+      "id": 11330,
+      "name": "Алексейчик Олег Геннадьевич"
+    },
+    "responsible": {
+      "id": 15231,
+      "name": "Бутяева Светлана Александровна"
+    },
+    "customer": {
+      "id": 311,
+      "name": "АК БАРС"
+    },
+    "projectManager": {
+      "id": 11389,
+      "name": "Черных Екатерина Викторовна"
+    }
+  },
+  "installation": {
+    "id": 9,
+    "name": "demomsa",
+    "architecture": {
+      "id": 3,
+      "name": "Микросервисная"
+    },
+    "owner": {
+      "id": 24773,
+      "name": "Алексеев Илья Борисович"
+    },
+    "responsible": {
+      "id": 24131,
+      "name": "Антипенко Елена Николаевна"
+    },
+    "description": "тест",
+    "installationStatus": {
+      "id": 1,
+      "name": "Доступно"
+    }
+  },
+  "project": {
+    "id": 2735575,
+    "name": "Конфигурационное управление",
+    "manager": "Черных Екатерина Викторовна",
+    "customer": "**DIASOFT"
+  },
+  "pbcList": [
+    {
+      "pbcSysName": "QCM",
+      "pbcName": "QCM",
+      "pbcVersion": null,
+      "architecture": "MSA",
+      "branch": null,
+      "platform": "Q.VCS",
+      "msInfoList": [
+        {
+          "msSysName": "qcmreleasedconfelement",
+          "msName": "qcmreleasedconfelement",
+          "msVersion": null,
+          "msStatus": {
+            "id": 1,
+            "name": "Планируется"
+          },
+          "msType": {
+            "id": 2,
+            "name": "alg"
+          },
+          "msImgInfoList": [
+            {
+              "msImgName": "qcmreleasedconfelement",
+              "msImgTag": "1.01.01-HF002-21120301",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "database-qcmreleasedconfelement",
+              "msImgTag": "1.01.01-HF002-21120301",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "additionalfiles-property-qcmreleasedconfelement",
+              "msImgTag": "1.01.01-HF002-21120301",
+              "msImgLink": null
+            }
+          ],
+          "msOptInfoList": []
+        },
+        {
+          "msSysName": "qcmcomposition",
+          "msName": "qcmcomposition",
+          "msVersion": null,
+          "msStatus": {
+            "id": 1,
+            "name": "Планируется"
+          },
+          "msType": {
+            "id": 2,
+            "name": "alg"
+          },
+          "msImgInfoList": [
+            {
+              "msImgName": "qcmcomposition",
+              "msImgTag": "1.02.01-21112301",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "database-qcmcomposition",
+              "msImgTag": "1.02.01-21112301",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "additionalfiles-property-qcmcomposition",
+              "msImgTag": "1.02.01-21112301",
+              "msImgLink": null
+            }
+          ],
+          "msOptInfoList": []
+        },
+        {
+          "msSysName": "qcmconfelement",
+          "msName": "qcmconfelement",
+          "msVersion": null,
+          "msStatus": {
+            "id": 1,
+            "name": "Планируется"
+          },
+          "msType": {
+            "id": 2,
+            "name": "alg"
+          },
+          "msImgInfoList": [
+            {
+              "msImgName": "qcmconfelement",
+              "msImgTag": "1.02.01-21121502",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "database-qcmconfelement",
+              "msImgTag": "1.02.01-21121502",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "additionalfiles-property-qcmconfelement",
+              "msImgTag": "1.01.01-HF001-21111901",
+              "msImgLink": null
+            }
+          ],
+          "msOptInfoList": []
+        }
+      ]
+    },
+    {
+      "pbcSysName": "QGAR",
+      "pbcName": "QGAR",
+      "pbcVersion": null,
+      "architecture": "MSA",
+      "branch": null,
+      "platform": "Q.Reference",
+      "msInfoList": [
+        {
+          "msSysName": "qgarui",
+          "msName": "qgarui",
+          "msVersion": null,
+          "msStatus": {
+            "id": 1,
+            "name": "Планируется"
+          },
+          "msType": {
+            "id": 2,
+            "name": "alg"
+          },
+          "msImgInfoList": [
+            {
+              "msImgName": "qgarui",
+              "msImgTag": "1.02.01-HF001-21112201",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "additionalfiles-property-qgarui",
+              "msImgTag": "1.02.01-HF001-21112201",
+              "msImgLink": null
+            }
+          ],
+          "msOptInfoList": []
+        },
+        {
+          "msSysName": "qgar",
+          "msName": "qgar",
+          "msVersion": null,
+          "msStatus": {
+            "id": 1,
+            "name": "Планируется"
+          },
+          "msType": {
+            "id": 2,
+            "name": "alg"
+          },
+          "msImgInfoList": [
+            {
+              "msImgName": "qgar",
+              "msImgTag": "1.01.01-HF001-21112202",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "database-qgar",
+              "msImgTag": "1.01.01-HF001-21112202",
+              "msImgLink": null
+            },
+            {
+              "msImgName": "additionalfiles-property-qgar",
+              "msImgTag": "1.01.01-HF001-21112202",
+              "msImgLink": null
+            }
+          ],
+          "msOptInfoList": []
+        }
+      ]
+    }
+  ],
+  "responsible": "Дмитриев Андрей Владимирович"
+}
