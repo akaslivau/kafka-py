@@ -21,7 +21,7 @@ broker = 'qrunkafka.diasoft.ru:9092'
 topic = 'qcm-releasedconfelementcomposition-add-event'
 
 readFromFile = True
-fileName = 'payloads/qvcs-release.json'
+fileName = 'payloads/qvcs-release-other.json'
 message = ''
 
 headers = [

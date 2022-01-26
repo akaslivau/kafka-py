@@ -1,0 +1,15 @@
+{
+  "ReleasedConfElementComposition": {
+    "registryPath": "release",
+    "path": "registry-ext.diasoft.ru/release/qgarui:12345",
+    "releasedConfElementCompositionId": 355,
+    "registryServer": "registry-ext.diasoft.ru",
+    "releasedConfElementId": 161,
+    "name": "qgarui:12345",
+    "releasedConfElementObjTypeId": 5,
+    "version": "12345",
+    "confElementName": "qgarui"
+  },
+  "version": "12345",
+  "confElementName": "qgar"
+}

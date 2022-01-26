@@ -18,15 +18,14 @@ broker = 'qrunkafka.diasoft.ru:9092'
 #
 #
 #
-topic = 'dq-qsftcmdelivery-qis-delivery-create-command'
+topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-command'
 
 readFromFile = True
-fileName = 'payloads/zero-image-dto.json'
+fileName = 'payloads/stand-update-conf-command.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('dqCommandName', str.encode('qis-create-delivery-command')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

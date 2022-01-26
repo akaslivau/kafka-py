@@ -13,20 +13,19 @@ from diasoft_enums import DQEventType, DQCommandStatus
 # qrunkafka.diasoft.ru:9092
 
 # User settings
-broker = 'qrunkafka.diasoft.ru:9092'
+broker = '192.168.31.189:9092'
 
 #
 #
 #
-topic = 'dq-qsftcmdelivery-qis-delivery-create-command'
+topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-reply'
 
 readFromFile = True
-fileName = 'payloads/zero-image-dto.json'
+fileName = 'payloads/stand-update-conf-reply.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('dqCommandName', str.encode('qis-create-delivery-command')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 
