@@ -1,0 +1,107 @@
+{
+  "deliveryId": 220,
+  "repositoryId": -1,
+  "imageStorageId": -1,
+  "qisms": [
+    {
+      "name": "qcmreleasedconfelement",
+      "imageTypes": [],
+      "imageList": [
+        {
+          "name": "qcmreleasedconfelement",
+          "version": "1.01.01-HF002-21120301",
+          "imageExists": true
+        },
+        {
+          "name": "database-qcmreleasedconfelement",
+          "version": "1.01.01-HF002-21120301",
+          "imageExists": true
+        },
+        {
+          "name": "additionalfiles-property-qcmreleasedconfelement",
+          "version": "1.01.01-HF002-21120301",
+          "imageExists": true
+        }
+      ]
+    },
+    {
+      "name": "qcmcomposition",
+      "imageTypes": [],
+      "imageList": [
+        {
+          "name": "qcmcomposition",
+          "version": "1.02.01-21112301",
+          "imageExists": true
+        },
+        {
+          "name": "database-qcmcomposition",
+          "version": "1.02.01-21112301",
+          "imageExists": true
+        },
+        {
+          "name": "additionalfiles-property-qcmcomposition",
+          "version": "1.02.01-21112301",
+          "imageExists": true
+        }
+      ]
+    },
+    {
+      "name": "qcmconfelement",
+      "imageTypes": [],
+      "imageList": [
+        {
+          "name": "qcmconfelement",
+          "version": "1.02.01-21121502",
+          "imageExists": true
+        },
+        {
+          "name": "database-qcmconfelement",
+          "version": "1.02.01-21121502",
+          "imageExists": true
+        },
+        {
+          "name": "additionalfiles-property-qcmconfelement",
+          "version": "1.01.01-HF001-21111901",
+          "imageExists": true
+        }
+      ]
+    },
+    {
+      "name": "qgarui",
+      "imageTypes": [],
+      "imageList": [
+        {
+          "name": "qgarui",
+          "version": "1.02.01-HF001-21112201",
+          "imageExists": true
+        },
+        {
+          "name": "additionalfiles-property-qgarui",
+          "version": "1.02.01-HF001-21112201",
+          "imageExists": true
+        }
+      ]
+    },
+    {
+      "name": "qgar",
+      "imageTypes": [],
+      "imageList": [
+        {
+          "name": "qgar",
+          "version": "1.01.01-HF001-21112202",
+          "imageExists": true
+        },
+        {
+          "name": "database-qgar",
+          "version": "1.01.01-HF001-21112202",
+          "imageExists": true
+        },
+        {
+          "name": "additionalfiles-property-qgar",
+          "version": "1.01.01-HF001-21112202",
+          "imageExists": true
+        }
+      ]
+    }
+  ]
+}

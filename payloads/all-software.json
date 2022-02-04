@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "component_id": 1,
+    "software_name_id": 2,
+    "name": "2016"
+  },
+  {
+    "id": 2,
+    "component_id": 1,
+    "software_name_id": 1,
+    "name": "19"
+  },
+  {
+    "id": 3,
+    "component_id": 1,
+    "software_name_id": 1,
+    "name": "17"
+  },
+  {
+    "id": 4,
+    "component_id": 3,
+    "software_name_id": 3,
+    "name": "1.19"
+  },
+  {
+    "id": 5,
+    "component_id": 3,
+    "software_name_id": 3,
+    "name": "1.17"
+  },
+  {
+    "id": 6,
+    "component_id": 3,
+    "software_name_id": 4,
+    "name": "4.0"
+  },
+  {
+    "id": 7,
+    "component_id": 4,
+    "software_name_id": 5,
+    "name": "2.3"
+  },
+  {
+    "id": 8,
+    "component_id": 4,
+    "software_name_id": 5,
+    "name": "2.7"
+  },
+  {
+    "id": 9,
+    "component_id": 5,
+    "software_name_id": 10,
+    "name": "1.17"
+  },
+  {
+    "id": 10,
+    "component_id": 5,
+    "software_name_id": 8,
+    "name": "1.17"
+  },
+  {
+    "id": 11,
+    "component_id": 5,
+    "software_name_id": 9,
+    "name": "1.17"
+  },
+  {
+    "id": 12,
+    "component_id": 5,
+    "software_name_id": 7,
+    "name": "1.10.2"
+  },
+  {
+    "id": 13,
+    "component_id": 5,
+    "software_name_id": 7,
+    "name": "2.2"
+  },
+  {
+    "id": 14,
+    "component_id": 7,
+    "software_name_id": 11,
+    "name": "2.2"
+  },
+  {
+    "id": 15,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  },
+  {
+    "id": 16,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  },
+  {
+    "id": 17,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  },
+  {
+    "id": 18,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  },
+  {
+    "id": 19,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  },
+  {
+    "id": 20,
+    "component_id": 3,
+    "software_name_id": 19,
+    "name": "1.19"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "commitMessage": "Create new branch for delivery test_jenkins_hook",
+  "startBranch": "master",
+  "branchName": "prj/qsmj-delivery-223",
+  "confElementBrief": "qsftcmdeliveryjson",
+  "commitFiles": []
+}

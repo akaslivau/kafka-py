@@ -2,20 +2,37 @@
   "dQPBCPlatformReplyList": [
     {
       "dQPBCBrief": {
-        "pbcBriefName": "Address reference of GAR",
-        "pbcShortName": "QGAR",
-        "pbcLocalName": "Справочник адресов ГАР",
-        "pbcSysName": "QGAR",
-        "pbcId": 1616739783942
+        "pbcBriefName": "Configuration Management",
+        "pbcShortName": "QCM",
+        "pbcLocalName": "Конфигурационное управление",
+        "pbcSysName": "QCM",
+        "pbcId": 1619369583675
       },
       "dQPBCPlatformBrief": {
-        "id": 11,
-        "typeId": 4,
-        "platformLocalName": "Кросс-продуктовые справочники",
-        "platformSysName": "Q.Reference",
-        "platformTypeLocalName": "Кросс-продуктовая"
+        "id": 33,
+        "typeId": 1,
+        "platformLocalName": "Система контроля версий",
+        "platformSysName": "Q.VCS",
+        "platformTypeLocalName": "Производственная"
       },
-      "microServName": "qgar"
+      "microServName": "qcmcomposition"
+    },
+    {
+      "dQPBCBrief": {
+        "pbcBriefName": "Configuration Management",
+        "pbcShortName": "QCM",
+        "pbcLocalName": "Конфигурационное управление",
+        "pbcSysName": "QCM",
+        "pbcId": 1619369583675
+      },
+      "dQPBCPlatformBrief": {
+        "id": 33,
+        "typeId": 1,
+        "platformLocalName": "Система контроля версий",
+        "platformSysName": "Q.VCS",
+        "platformTypeLocalName": "Производственная"
+      },
+      "microServName": "qcmconfelement"
     }
   ]
 }

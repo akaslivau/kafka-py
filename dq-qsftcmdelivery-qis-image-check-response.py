@@ -18,15 +18,15 @@ broker = '192.168.31.189:9092'
 #
 #
 #
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
+topic = 'dq-qsftcmdelivery-qis-image-check-response'
 
 readFromFile = True
-fileName = 'payloads/platform-single-reply.json'
+fileName = 'payloads/qis-images-response.json'
 message = ''
 
 headers = [
-    ('dqMessageGuid', str.encode('2bbca9ea-62d9-42bd-87e1-5210ff10b3ab')),
-    ('dqCommandName', str.encode('not-matter')),
+    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
+    ('dqCommandName', str.encode('qis-image-check-reply')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

@@ -13,20 +13,21 @@ from diasoft_enums import DQEventType, DQCommandStatus
 # qrunkafka.diasoft.ru:9092
 
 # User settings
-broker = '192.168.31.189:9092'
+broker = 'qrunkafka.diasoft.ru:9092'
 
 #
 #
 #
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
+topic = 'qvcs-commit-create-command'
 
 readFromFile = True
-fileName = 'payloads/platform-single-reply.json'
+fileName = 'payloads/qvcs-commit-add-files.json'
 message = ''
 
 headers = [
-    ('dqMessageGuid', str.encode('2bbca9ea-62d9-42bd-87e1-5210ff10b3ab')),
-    ('dqCommandName', str.encode('not-matter')),
+    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
+    ('dqCommandName', str.encode('create-commit')),
+    ('dqCommandStatus', DQCommandStatus.OK.value),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

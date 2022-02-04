@@ -14,20 +14,15 @@ from diasoft_enums import DQEventType, DQCommandStatus
 
 # User settings
 broker = '192.168.31.189:9092'
+topic = 'dq-qstandcm-installation-request'
 
-#
-#
-#
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
-
-readFromFile = True
-fileName = 'payloads/platform-single-reply.json'
-message = ''
+readFromFile = False
+fileName = ''
+message = 'get-all-installations-didyk-hand'
 
 headers = [
-    ('dqMessageGuid', str.encode('2bbca9ea-62d9-42bd-87e1-5210ff10b3ab')),
-    ('dqCommandName', str.encode('not-matter')),
-    ('specialMark', b'send-manually-by-didyk')
+    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
+    ('command', b'')
 ]
 
 #  SOURCE CODE

@@ -1,0 +1,18 @@
+{
+  "commitMessage": "Add files for delivery test_jenkins_hook",
+  "startBranch": "prj/qsmj-delivery-223",
+  "branchName": "prj/qsmj-delivery-223",
+  "confElementBrief": "qsftcmdeliveryjson",
+  "commitFiles": [
+    {
+      "content": "FROM registry.diasoft.ru:5000/baseimages/diasoft-parent-simple:1.01.01-20022501\nCOPY delivery.json /delivery.json",
+      "encoding": 0,
+      "filePath": "docker/Dockerfile-service.txt"
+    },
+    {
+      "content": "{\"id\":223,\"name\":\"test_jenkins_hook\",\"description\":\"aaa\",\"createRelatedObjects\":true,\"installation\":{\"id\":-1,\"name\":\"n/a\"},\"project\":{\"id\":2735575,\"name\":\"Конфигурационное управление\",\"manager\":\"Черных Екатерина Викторовна\",\"customer\":\"**DIASOFT\"},\"pbcList\":[{\"pbcSysName\":\"QCM\",\"pbcName\":\"QCM\",\"architecture\":\"MSA\",\"msInfoList\":[{\"msSysName\":\"qcmreleasedconfelement\",\"msName\":\"qcmreleasedconfelement\",\"msStatus\":{\"id\":1,\"name\":\"Планируется\"},\"msType\":{\"id\":2,\"name\":\"alg\"},\"msImgInfoList\":[{\"msImgName\":\"qcmreleasedconfelement\",\"msImgTag\":\"1.01.01-HF002-21120301\"},{\"msImgName\":\"database-qcmreleasedconfelement\",\"msImgTag\":\"1.01.01-HF002-21120301\"},{\"msImgName\":\"additionalfiles-property-qcmreleasedconfelement\",\"msImgTag\":\"1.01.01-HF002-21120301\"}],\"msOptInfoList\":[]},{\"msSysName\":\"qcmcomposition\",\"msName\":\"qcmcomposition\",\"msStatus\":{\"id\":1,\"name\":\"Планируется\"},\"msType\":{\"id\":2,\"name\":\"alg\"},\"msImgInfoList\":[{\"msImgName\":\"qcmcomposition\",\"msImgTag\":\"1.02.01-21112301\"},{\"msImgName\":\"database-qcmcomposition\",\"msImgTag\":\"1.02.01-21112301\"},{\"msImgName\":\"additionalfiles-property-qcmcomposition\",\"msImgTag\":\"1.02.01-21112301\"}],\"msOptInfoList\":[]},{\"msSysName\":\"qcmconfelement\",\"msName\":\"qcmconfelement\",\"msStatus\":{\"id\":1,\"name\":\"Планируется\"},\"msType\":{\"id\":2,\"name\":\"alg\"},\"msImgInfoList\":[{\"msImgName\":\"qcmconfelement\",\"msImgTag\":\"1.06.01-22012701\"},{\"msImgName\":\"database-qcmconfelement\",\"msImgTag\":\"1.06.01-22012701\"},{\"msImgName\":\"additionalfiles-property-qcmconfelement\",\"msImgTag\":\"1.06.01-22012701\"}],\"msOptInfoList\":[]}]},{\"pbcSysName\":\"QGAR\",\"pbcName\":\"QGAR\",\"architecture\":\"MSA\",\"msInfoList\":[{\"msSysName\":\"qgarui\",\"msName\":\"qgarui\",\"msStatus\":{\"id\":1,\"name\":\"Планируется\"},\"msType\":{\"id\":2,\"name\":\"alg\"},\"msImgInfoList\":[{\"msImgName\":\"qgarui\",\"msImgTag\":\"1.02.01-HF001-21112201\"},{\"msImgName\":\"additionalfiles-property-qgarui\",\"msImgTag\":\"1.02.01-HF001-21112201\"}],\"msOptInfoList\":[]},{\"msSysName\":\"qgar\",\"msName\":\"qgar\",\"msStatus\":{\"id\":1,\"name\":\"Планируется\"},\"msType\":{\"id\":2,\"name\":\"alg\"},\"msImgInfoList\":[{\"msImgName\":\"qgar\",\"msImgTag\":\"1.01.01-HF001-21112202\"},{\"msImgName\":\"database-qgar\",\"msImgTag\":\"1.01.01-HF001-21112202\"},{\"msImgName\":\"additionalfiles-property-qgar\",\"msImgTag\":\"1.01.01-HF001-21112202\"}],\"msOptInfoList\":[]}]}],\"responsible\":\"Аболин Александр Викторович\"}",
+      "encoding": 0,
+      "filePath": "delivery.json"
+    }
+  ]
+}
