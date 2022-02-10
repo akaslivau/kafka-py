@@ -14,15 +14,17 @@ from diasoft_enums import DQEventType, DQCommandStatus
 
 # User settings
 broker = 'qrunkafka.diasoft.ru:9092'
-topic = 'dq-qstandcm-installation-request'
+topic = 'dq-itchosts-request'
 
 readFromFile = False
 fileName = ''
-message = 'get-all-installations-didyk-hand'
+message = '"get hosts"'
 
 headers = [
-    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('command', b'')
+    ('command', b'get-all-hosts'),
+    ('spring_json_header_types', b'{"command":"java.lang.String"}'),
+    ('b3', b'9269f1d907af57fb-ce013b8022273df9-1'),
+    ('__TypeId__', b'java.lang.String')
 ]
 
 #  SOURCE CODE

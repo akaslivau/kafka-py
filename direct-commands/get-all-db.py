@@ -14,15 +14,15 @@ from diasoft_enums import DQEventType, DQCommandStatus
 
 # User settings
 broker = 'qrunkafka.diasoft.ru:9092'
-topic = 'dq-qstandcm-installation-request'
+topic = 'dq-itcdb-command'
 
 readFromFile = False
 fileName = ''
-message = 'get-all-installations-didyk-hand'
+message = '"get-all-db"'
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('command', b'')
+    ('dqCommandName', b'get-all-db')
 ]
 
 #  SOURCE CODE
