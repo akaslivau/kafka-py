@@ -13,21 +13,16 @@ from diasoft_enums import DQEventType, DQCommandStatus
 # qrunkafka.diasoft.ru:9092
 
 # User settings
-broker = 'digidemo.diasoft.ru:9092'
-
-#
-#
-#
-topic = 'dq-itchosts-response'
+broker = 'qrunkafka.diasoft.ru:9092'
+topic = 'dq-qstandcm-installation-request'
 
 readFromFile = False
 fileName = ''
-message = '[{"id":333,"name":"qrunner-n"}]'
+message = 'get-all-installations-didyk-hand'
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('command', str.encode('get-all-hosts-response')),
-    ('specialMark', b'send-manually-by-didyk')
+    ('command', b'')
 ]
 
 #  SOURCE CODE

@@ -13,8 +13,9 @@ from diasoft_enums import DQEventType, DQCommandStatus
 # qrunkafka.diasoft.ru:9092
 
 # User settings
-broker = 'qrunkafka.diasoft.ru:9092'
-topic = 'dq-itcdb-command'
+broker = 'qk1.diasoft.ru:9092'
+# topic = 'dq-itcdb-command'
+topic = 'qwork-dq-itcdb-command'
 
 readFromFile = False
 fileName = ''
