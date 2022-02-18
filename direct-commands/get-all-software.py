@@ -7,7 +7,6 @@ from _core.functions import send_message, get_message
 # INPUT
 topic = 'dq-itsoftware-request'
 
-readFromFile = False
 fileName = ''
 message = '"get software"'
 

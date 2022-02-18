@@ -7,7 +7,6 @@ from _core.functions import send_message, get_message
 # INPUT
 topic = 'dq-qstandcm-installation-request'
 
-readFromFile = False
 fileName = ''
 message = 'get-all-installations-didyk-hand'
 
