@@ -4,8 +4,6 @@ from kafka import KafkaProducer
 from kafka.errors import KafkaError
 from kafka.future import log
 
-from diasoft_enums import DQEventType, DQCommandStatus
-
 # Brokers-list
 # localhost:9092
 # 192.168.31.189:9092

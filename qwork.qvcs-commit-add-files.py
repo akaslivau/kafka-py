@@ -4,7 +4,7 @@ from kafka import KafkaProducer
 from kafka.errors import KafkaError
 from kafka.future import log
 
-from diasoft_enums import DQEventType, DQCommandStatus
+from _core.diasoft_enums import DQCommandStatus
 
 # Brokers-list
 # localhost:9092

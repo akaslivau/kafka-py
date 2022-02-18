@@ -4,8 +4,6 @@ from kafka import KafkaProducer
 from kafka.errors import KafkaError
 from kafka.future import log
 
-from diasoft_enums import DQEventType, DQCommandStatus
-
 # Brokers-list
 # localhost:9092
 # 192.168.31.189:9092
@@ -13,16 +11,16 @@ from diasoft_enums import DQEventType, DQCommandStatus
 # qrunkafka.diasoft.ru:9092
 
 # User settings
-broker = 'qrunkafka.diasoft.ru:9092'
-topic = 'dq-qstandcm-installation-request'
+broker = 'qk1.diasoft.ru:9092'
+topic = 'dq-itsoftware-request'
 
 readFromFile = False
 fileName = ''
-message = 'get-all-installations-didyk-hand'
+message = '"get software"'
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
-    ('command', b'')
+    ('command', b'get-all-software')
 ]
 
 #  SOURCE CODE
