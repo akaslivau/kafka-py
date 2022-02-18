@@ -1,3 +1,5 @@
+import uuid
+
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
 from kafka.future import log
@@ -26,3 +28,7 @@ def get_message(filename, message):
             return file.read()
     else:
         return message
+
+
+def get_uuid():
+    return str.encode(str(uuid.uuid4()))

@@ -1,0 +1,10 @@
+{
+  "dQPBCPlatformCommandList":[
+    {
+      "microServName":"qvcscomposition"
+    },
+    {
+      "microServName":"qvcscoderepository"
+    }
+  ]
+}
