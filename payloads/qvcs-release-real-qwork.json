@@ -1,0 +1,13 @@
+{
+  "ReleasedConfElementComposition": {
+    "name": "database-itcmsa:1.03.01-22030101",
+    "path": "registry-ext.diasoft.ru/release/database-itcmsa:1.03.01-22030101",
+    "registryPath": "release",
+    "registryServer": "registry-ext.diasoft.ru",
+    "releasedConfElementCompositionId": 3283,
+    "releasedConfElementId": 797,
+    "releasedConfElementObjTypeId": 6
+  },
+  "version": "1.03.01-22030101",
+  "confElementName": "itcmsa"
+}
