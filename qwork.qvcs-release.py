@@ -16,4 +16,4 @@ headers = [
 ]
 
 #  SOURCE CODE
-send_message(Brokers.QWORKTEST.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.QCMDB.value, topic, get_message(fileName, message), headers)

@@ -5,7 +5,7 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message
 
 # INPUT
-topic = 'dq-qis-new-image-event'
+topic = 'dq-qsftcmdelivery-command'
 
 fileName = 'payloads/new-image-event.json'
 message = ''

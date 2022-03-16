@@ -2,16 +2,16 @@ import uuid
 
 # User settings
 from _core.brokers import Brokers
-from _core.functions import send_message, get_message
+from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
 topic = 'dq-qis-add-image-rule'
 
-fileName = 'payloads/add-replication-rule.json'
-message = ''
+fileName = ''
+message = '{"repoId":8,"imageStorageId":1,"images":["itcmsa"],"runTypeId":1,"day":null,"hour":null,"minute":null,"grade":"3"}'
 
 headers = [
-    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
+    ('dqMessageGuid', get_uuid()),
     ('specialMark', b'send-manually-by-didyk'),
     ('dqCommandName', b'create-replication-rule')
 ]

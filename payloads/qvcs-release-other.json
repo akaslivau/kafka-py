@@ -1,15 +1,15 @@
 {
   "ReleasedConfElementComposition": {
     "registryPath": "release",
-    "path": "registry-ext.diasoft.ru/release/qcmreleasedconfelement:12345",
+    "path": "registry-ext.diasoft.ru/release/itcmsa:12345",
     "releasedConfElementCompositionId": 355,
     "registryServer": "registry-ext.diasoft.ru",
     "releasedConfElementId": 161,
-    "name": "qcmreleasedconfelement:12345",
+    "name": "itcmsa:12345",
     "releasedConfElementObjTypeId": 5,
     "version": "123456",
-    "confElementName": "qcmreleasedconfelement"
+    "confElementName": "itcmsa"
   },
   "version": "123456",
-  "confElementName": "qcmreleasedconfelement"
+  "confElementName": "itcmsa"
 }
