@@ -1,107 +1,145 @@
 {
-  "deliveryId": 220,
-  "repositoryId": -1,
-  "imageStorageId": -1,
+  "repositoryName": "release",
+  "storageHost": "qwork-registry.diasoft.ru",
+  "deliveryId": 65,
+  "imageStorageId": 1000,
+  "repositoryId": 1000,
   "qisms": [
     {
-      "name": "qcmreleasedconfelement",
       "imageTypes": [],
-      "imageList": [
-        {
-          "name": "qcmreleasedconfelement",
-          "version": "1.01.01-HF002-21120301",
-          "imageExists": true
-        },
-        {
-          "name": "database-qcmreleasedconfelement",
-          "version": "1.01.01-HF002-21120301",
-          "imageExists": true
-        },
-        {
-          "name": "additionalfiles-property-qcmreleasedconfelement",
-          "version": "1.01.01-HF002-21120301",
-          "imageExists": true
-        }
-      ]
+      "imageList": [],
+      "name": "qitcatpphysicalserver"
     },
     {
-      "name": "qcmcomposition",
       "imageTypes": [],
-      "imageList": [
-        {
-          "name": "qcmcomposition",
-          "version": "1.02.01-21112301",
-          "imageExists": true
-        },
-        {
-          "name": "database-qcmcomposition",
-          "version": "1.02.01-21112301",
-          "imageExists": true
-        },
-        {
-          "name": "additionalfiles-property-qcmcomposition",
-          "version": "1.02.01-21112301",
-          "imageExists": true
-        }
-      ]
+      "imageList": [],
+      "name": "qitcatvirtualserver"
     },
     {
-      "name": "qcmconfelement",
       "imageTypes": [],
-      "imageList": [
-        {
-          "name": "qcmconfelement",
-          "version": "1.02.01-21121502",
-          "imageExists": true
-        },
-        {
-          "name": "database-qcmconfelement",
-          "version": "1.02.01-21121502",
-          "imageExists": true
-        },
-        {
-          "name": "additionalfiles-property-qcmconfelement",
-          "version": "1.01.01-HF001-21111901",
-          "imageExists": true
-        }
-      ]
+      "imageList": [],
+      "name": "qitcatnamespace"
     },
     {
-      "name": "qgarui",
       "imageTypes": [],
-      "imageList": [
-        {
-          "name": "qgarui",
-          "version": "1.02.01-HF001-21112201",
-          "imageExists": true
-        },
-        {
-          "name": "additionalfiles-property-qgarui",
-          "version": "1.02.01-HF001-21112201",
-          "imageExists": true
-        }
-      ]
+      "imageList": [],
+      "name": "qitcatdbmsnode"
     },
     {
-      "name": "qgar",
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatdatabase"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatstand"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatclustermsa"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatimageregistry"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatregistrynode"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatcollection"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatnodeterminalserver"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcathost"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatnodemsacluster"
+    },
+    {
       "imageTypes": [],
       "imageList": [
         {
-          "name": "qgar",
-          "version": "1.01.01-HF001-21112202",
-          "imageExists": true
+          "name": "itcmsa",
+          "imageExists": true,
+          "version": "1.02.01-22022101"
         },
         {
-          "name": "database-qgar",
-          "version": "1.01.01-HF001-21112202",
-          "imageExists": true
+          "name": "database-itcmsa",
+          "imageExists": true,
+          "version": "1.03.01-22030101"
         },
         {
-          "name": "additionalfiles-property-qgar",
-          "version": "1.01.01-HF001-21112202",
-          "imageExists": true
+          "name": "additionalfiles-property-itcmsa",
+          "imageExists": true,
+          "version": "1.02.01-22022101"
         }
-      ]
+      ],
+      "name": "itcmsa"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatregistryofreleasedimages"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatclusterterminalservers"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatrepository"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatloadbalancernode"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatcomposition"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatdisks"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatapplications"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatnetwork"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatreplicationsettings"
+    },
+    {
+      "imageTypes": [],
+      "imageList": [],
+      "name": "qitcatdbms"
     }
   ]
 }

@@ -2,37 +2,20 @@
   "dQPBCPlatformReplyList": [
     {
       "dQPBCBrief": {
-        "pbcBriefName": "Configuration Management",
-        "pbcShortName": "QCM",
-        "pbcLocalName": "Конфигурационное управление",
-        "pbcSysName": "QCM",
-        "pbcId": 1619369583675
+        "pbcBriefName": "IT Components Catalog",
+        "pbcShortName": "QITC",
+        "pbcLocalName": "Каталог IT-компонент-конвертация",
+        "pbcSysName": "QITC",
+        "pbcId": 1637737829441
       },
       "dQPBCPlatformBrief": {
-        "id": 33,
+        "id": 30,
         "typeId": 1,
-        "platformLocalName": "Система контроля версий",
-        "platformSysName": "Q.VCS",
+        "platformLocalName": "Управление конфигурациями",
+        "platformSysName": "Q.CMDB",
         "platformTypeLocalName": "Производственная"
       },
-      "microServName": "itcmsa"
-    },
-    {
-      "dQPBCBrief": {
-        "pbcBriefName": "Configuration Management",
-        "pbcShortName": "QCM",
-        "pbcLocalName": "Конфигурационное управление",
-        "pbcSysName": "QCM",
-        "pbcId": 1619369583675
-      },
-      "dQPBCPlatformBrief": {
-        "id": 33,
-        "typeId": 1,
-        "platformLocalName": "Система контроля версий",
-        "platformSysName": "Q.VCS",
-        "platformTypeLocalName": "Производственная"
-      },
-      "microServName": "qcmconfelement"
+      "microServName": "itcmb"
     }
   ]
 }

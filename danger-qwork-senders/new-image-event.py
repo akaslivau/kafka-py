@@ -1,18 +1,20 @@
+import uuid
+
 # User settings
 from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
+topic = 'qwork-dq-qis-new-image-event'
 
-fileName = 'payloads/platform-possible-null-reply.json'
+fileName = '../payloads/new-image-event.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', get_uuid()),
-    ('dqCommandName', b'not-matter'),
+    ('dqCommand', str.encode('new-image-event')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 
 #  SOURCE CODE
-send_message(Brokers.PUBUNTU.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.ARE_YOU_SURE_QWORK.value, topic, get_message(fileName, message), headers)
