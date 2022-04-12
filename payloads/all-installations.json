@@ -1,0 +1,452 @@
+{
+  "kInstallationDto": [
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 1,
+      "name": "Тест",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 4,
+      "name": "test",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "test1",
+      "statusName": "Доступно",
+      "installationId": 5,
+      "name": "test1-test1",
+      "standId": 3,
+      "statusId": 1
+    },
+    {
+      "standName": "test1",
+      "statusName": "Не доступно",
+      "installationId": 6,
+      "name": "test1-test2",
+      "standId": 3,
+      "statusId": 2
+    },
+    {
+      "standName": "test1",
+      "statusName": "Не доступно",
+      "installationId": 7,
+      "name": "hfvbsjdbvksdj",
+      "standId": 3,
+      "statusId": 2
+    },
+    {
+      "standName": "test_panichkin",
+      "statusName": "Доступно",
+      "installationId": 8,
+      "name": "test-inst",
+      "standId": 2,
+      "statusId": 1
+    },
+    {
+      "standName": "Черных",
+      "statusName": "Не доступно",
+      "installationId": 9,
+      "name": "regege",
+      "standId": 5,
+      "statusId": 2
+    },
+    {
+      "standName": "Черных",
+      "statusName": "Доступно",
+      "installationId": 10,
+      "name": "тестовая инсталляция",
+      "standId": 5,
+      "statusId": 1
+    },
+    {
+      "standName": "Новый стенд для проверки инсталляции",
+      "statusName": "Доступно",
+      "installationId": 11,
+      "name": "ZAV",
+      "standId": 11,
+      "statusId": 1
+    },
+    {
+      "standName": "Новый стенд для проверки инсталляции",
+      "statusName": "Доступно",
+      "installationId": 12,
+      "name": "ZAV2",
+      "standId": 11,
+      "statusId": 1
+    },
+    {
+      "standName": "Новый стенд для проверки инсталляции",
+      "statusName": "Не доступно",
+      "installationId": 13,
+      "name": "test",
+      "standId": 11,
+      "statusId": 2
+    },
+    {
+      "standName": "Новый стенд",
+      "statusName": "Доступно",
+      "installationId": 14,
+      "name": "Новая инсталляция для тестирования",
+      "standId": 14,
+      "statusId": 1
+    },
+    {
+      "standName": "Новый стенд",
+      "statusName": "Доступно",
+      "installationId": 15,
+      "name": "еще одна инсталляция",
+      "standId": 14,
+      "statusId": 1
+    },
+    {
+      "standName": "Черных777",
+      "statusName": "Доступно",
+      "installationId": 17,
+      "name": "Ekaterina",
+      "standId": 22,
+      "statusId": 1
+    },
+    {
+      "standName": "test_P",
+      "statusName": "Доступно",
+      "installationId": 16,
+      "name": "test_p",
+      "standId": 21,
+      "statusId": 1
+    },
+    {
+      "standName": "Черных777",
+      "statusName": "Доступно",
+      "installationId": 18,
+      "name": "Ekaterina222",
+      "standId": 22,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд с проверкой работы инсталляции",
+      "statusName": "Доступно",
+      "installationId": 19,
+      "name": "тест",
+      "standId": 13,
+      "statusId": 1
+    },
+    {
+      "standName": "1",
+      "statusName": "Доступно",
+      "installationId": 20,
+      "name": "Ekaterina2131",
+      "standId": 23,
+      "statusId": 1
+    },
+    {
+      "standName": "1",
+      "statusName": "Доступно",
+      "installationId": 21,
+      "name": "FA#",
+      "standId": 23,
+      "statusId": 1
+    },
+    {
+      "standName": "Черных1",
+      "statusName": "Доступно",
+      "installationId": 22,
+      "name": "Ekaterina1",
+      "standId": 24,
+      "statusId": 1
+    },
+    {
+      "standName": "Михалин1123",
+      "statusName": "Доступно",
+      "installationId": 23,
+      "name": "Михалин тестовая инсталляция",
+      "standId": 25,
+      "statusId": 1
+    },
+    {
+      "standName": "тест112",
+      "statusName": "Доступно",
+      "installationId": 41,
+      "name": "test",
+      "standId": 44,
+      "statusId": 1
+    },
+    {
+      "standName": "Михалин1123",
+      "statusName": "Доступно",
+      "installationId": 24,
+      "name": "новая инсталляция",
+      "standId": 25,
+      "statusId": 1
+    },
+    {
+      "standName": "Михалин1123",
+      "statusName": "Доступно",
+      "installationId": 27,
+      "name": "№1 инсталляция",
+      "standId": 25,
+      "statusId": 1
+    },
+    {
+      "standName": "Дидык тест",
+      "statusName": "Доступно",
+      "installationId": 29,
+      "name": "Дидык-инсталляция",
+      "standId": 26,
+      "statusId": 1
+    },
+    {
+      "standName": "Михалин 1125",
+      "statusName": "Доступно",
+      "installationId": 30,
+      "name": "test",
+      "standId": 28,
+      "statusId": 1
+    },
+    {
+      "standName": "Дидык тест",
+      "statusName": "Доступно",
+      "installationId": 31,
+      "name": "Дидык-инсталляция 22222",
+      "standId": 26,
+      "statusId": 1
+    },
+    {
+      "standName": "тест112",
+      "statusName": "Доступно",
+      "installationId": 51,
+      "name": "test",
+      "standId": 44,
+      "statusId": 1
+    },
+    {
+      "standName": "qwork",
+      "statusName": "Доступно",
+      "installationId": 25,
+      "name": "qwork",
+      "standId": 27,
+      "statusId": 1
+    },
+    {
+      "standName": "qwork",
+      "statusName": "Не доступно",
+      "installationId": 28,
+      "name": "asdasd",
+      "standId": 27,
+      "statusId": 2
+    },
+    {
+      "standName": "Экосистема цифровой трансформации",
+      "statusName": "Не доступно",
+      "installationId": 32,
+      "name": "qworkFA",
+      "standId": 30,
+      "statusId": 2
+    },
+    {
+      "standName": "demo_test",
+      "statusName": "Доступно",
+      "installationId": 33,
+      "name": "demo",
+      "standId": 32,
+      "statusId": 1
+    },
+    {
+      "standName": "Demo3",
+      "statusName": "Доступно",
+      "installationId": 34,
+      "name": "msa",
+      "standId": 33,
+      "statusId": 1
+    },
+    {
+      "standName": "Экосистема цифровой трансформации",
+      "statusName": "Доступно",
+      "installationId": 26,
+      "name": "qworkmsa",
+      "standId": 30,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 35,
+      "name": "test",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "стенд для удаления",
+      "statusName": "Не доступно",
+      "installationId": 36,
+      "name": "test",
+      "standId": 37,
+      "statusId": 2
+    },
+    {
+      "standName": "test_panichkin_db_23",
+      "statusName": "Не доступно",
+      "installationId": 37,
+      "name": "test_panichkin",
+      "standId": 41,
+      "statusId": 2
+    },
+    {
+      "standName": "testnew",
+      "statusName": "Доступно",
+      "installationId": 38,
+      "name": "Ekwterina",
+      "standId": 42,
+      "statusId": 1
+    },
+    {
+      "standName": "Test",
+      "statusName": "Доступно",
+      "installationId": 39,
+      "name": "Test",
+      "standId": 43,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 42,
+      "name": "Test_aa",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "test_panichkin",
+      "statusName": "Доступно",
+      "installationId": 43,
+      "name": "Test_aa",
+      "standId": 2,
+      "statusId": 1
+    },
+    {
+      "standName": "Test",
+      "statusName": "Доступно",
+      "installationId": 44,
+      "name": "Test",
+      "standId": 43,
+      "statusId": 1
+    },
+    {
+      "standName": "test_panichkin_",
+      "statusName": "Доступно",
+      "installationId": 45,
+      "name": "test",
+      "standId": 39,
+      "statusId": 1
+    },
+    {
+      "standName": "testnew",
+      "statusName": "Доступно",
+      "installationId": 46,
+      "name": "test0902",
+      "standId": 42,
+      "statusId": 1
+    },
+    {
+      "standName": "test_panichkin_db_23",
+      "statusName": "Не доступно",
+      "installationId": 47,
+      "name": "111",
+      "standId": 41,
+      "statusId": 2
+    },
+    {
+      "standName": "testnew",
+      "statusName": "Доступно",
+      "installationId": 48,
+      "name": "test1502",
+      "standId": 42,
+      "statusId": 1
+    },
+    {
+      "standName": "Черных5556666",
+      "statusName": "Доступно",
+      "installationId": 49,
+      "name": "test15",
+      "standId": 36,
+      "statusId": 1
+    },
+    {
+      "standName": "Test",
+      "statusName": "Доступно",
+      "installationId": 50,
+      "name": "new test",
+      "standId": 43,
+      "statusId": 1
+    },
+    {
+      "standName": "Test",
+      "statusName": "Доступно",
+      "installationId": 40,
+      "name": "test_",
+      "standId": 43,
+      "statusId": 1
+    },
+    {
+      "standName": "test180322",
+      "statusName": "Доступно",
+      "installationId": 53,
+      "name": "тест_022",
+      "standId": 45,
+      "statusId": 1
+    },
+    {
+      "standName": "test180322",
+      "statusName": "Доступно",
+      "installationId": 52,
+      "name": "test01j",
+      "standId": 45,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 2,
+      "name": "Тест1_123456",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 3,
+      "name": "Тест1_654321",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "Тестовый стенд Михалин (удалить)",
+      "statusName": "Доступно",
+      "installationId": 54,
+      "name": "30_03_22_test_12345",
+      "standId": 1,
+      "statusId": 1
+    },
+    {
+      "standName": "Demo3",
+      "statusName": "Доступно",
+      "installationId": 55,
+      "name": "new_inst_30_03_22",
+      "standId": 33,
+      "statusId": 1
+    },
+    {
+      "standName": "test180322",
+      "statusName": "Доступно",
+      "installationId": 56,
+      "name": "test_033",
+      "standId": 45,
+      "statusId": 1
+    }
+  ]
+}

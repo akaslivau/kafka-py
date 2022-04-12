@@ -1,0 +1,101 @@
+{
+  "sender": "itchost",
+  "netstoreItem": [
+    {
+      "tDirectory": {
+        "name": "Dir 2",
+        "id": 2
+      },
+      "tResponsible": {
+        "name": "Emp 3",
+        "id": 3
+      },
+      "tBackup": {
+        "name": "Да",
+        "id": 1
+      },
+      "name": "test",
+      "id": 6,
+      "sizeFree": -1,
+      "sizeTotal": -1,
+      "description": "вввв",
+      "networkPath": "testname66777",
+      "tStatus": {
+        "name": "Не доступен",
+        "id": 3
+      },
+      "tOwner": {
+        "name": "Emp 1",
+        "id": 1
+      },
+      "tProtocol": {
+        "name": "NFS",
+        "id": 1
+      }
+    },
+    {
+      "tDirectory": {
+        "name": "Dir 2",
+        "id": 2
+      },
+      "tResponsible": {
+        "name": "Emp 2",
+        "id": 2
+      },
+      "tBackup": {
+        "name": "Нет",
+        "id": 2
+      },
+      "name": "test0102",
+      "id": 9,
+      "sizeFree": -1,
+      "sizeTotal": -1,
+      "description": "fff",
+      "networkPath": "linfs\\qrun",
+      "tStatus": {
+        "name": "Доступен",
+        "id": 1
+      },
+      "tOwner": {
+        "name": "Emp 2",
+        "id": 2
+      },
+      "tProtocol": {
+        "name": "SMB",
+        "id": 2
+      }
+    },
+    {
+      "tDirectory": {
+        "name": "Dir 1",
+        "id": 1
+      },
+      "tResponsible": {
+        "name": "Emp 2",
+        "id": 2
+      },
+      "tBackup": {
+        "name": "Нет",
+        "id": 2
+      },
+      "name": "alex test",
+      "id": 4,
+      "sizeFree": -1,
+      "sizeTotal": -1,
+      "description": "Корректное описание для проверки тултипа",
+      "networkPath": "nkb",
+      "tStatus": {
+        "name": "Планируется",
+        "id": 2
+      },
+      "tOwner": {
+        "name": "Emp 2",
+        "id": 2
+      },
+      "tProtocol": {
+        "name": "NFS",
+        "id": 1
+      }
+    }
+  ]
+}

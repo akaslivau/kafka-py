@@ -1,0 +1,13 @@
+{
+  "ReleasedConfElementComposition": {
+    "name": "DQFPSCore-1.10.01-HF004-22040104-ReadMe.docx",
+    "path": "\\\\diasoft\\build\\FLEXTERA Release\\DQFaster Payments Service Core\\1.10.01\\DQFPSCore-1.10.01-HF004-22040104\\DQFPSCore-1.10.01-HF004-22040104-ReadMe.docx",
+    "registryPath": null,
+    "registryServer": null,
+    "releasedConfElementCompositionId": 4723,
+    "releasedConfElementId": 1178,
+    "releasedConfElementObjTypeId": 2
+  },
+  "version": "1.10.01-HF004-22040104",
+  "confElementName": "DQFPSCore"
+}

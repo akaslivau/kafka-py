@@ -1,0 +1,22 @@
+{
+  "supplyName": "Manual to check alg response",
+  "supplyId": 1000001,
+  "installationId": null,
+  "supplyType": "Продуктовая",
+  "standName": "not matter",
+  "namespace": "not matter",
+  "pbcList": [
+    {
+      "pbcSysName": "QITCAT",
+      "pbcName": "QITCAT",
+      "pbcVersion": "n/a",
+      "architecture": null,
+      "branch": null,
+      "platform": null,
+      "msInfoList": null
+    }
+  ],
+  "projectId": null,
+  "responsibleId": null,
+  "standParamList": null
+}
