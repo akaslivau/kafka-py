@@ -13,7 +13,6 @@ message = ''
 headers = [
     ('dqMessageGuid', get_uuid()),
     ('dqCommand', str.encode('new-image-event')),
-    ('specialMark', b'send-manually-by-didyk')
 ]
 
 #  SOURCE CODE

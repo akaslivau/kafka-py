@@ -1,0 +1,130 @@
+{
+  "ComponentDto": [
+    {
+      "installationId": 33,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 2,
+      "objectName": "DDK_database_1",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    },
+    {
+      "installationId": 33,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 3,
+      "objectName": "DDK_database_2",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    },
+    {
+      "installationId": 1,
+      "componentId": 1,
+      "parentObjectId": 1,
+      "objectId": 4,
+      "objectName": "Test name",
+      "parentObjectName": "Test_name_edit",
+      "status": "planned"
+    },
+    {
+      "installationId": 1,
+      "componentId": 1,
+      "parentObjectId": 1,
+      "objectId": 5,
+      "objectName": "Test name",
+      "parentObjectName": "Test_name_edit",
+      "status": "planned"
+    },
+    {
+      "installationId": 1,
+      "componentId": 1,
+      "parentObjectId": 2,
+      "objectId": 6,
+      "objectName": "Test name",
+      "parentObjectName": "Test_name",
+      "status": "available"
+    },
+    {
+      "installationId": 2,
+      "componentId": 1,
+      "parentObjectId": 2,
+      "objectId": 7,
+      "objectName": "Test name",
+      "parentObjectName": "Test_name",
+      "status": "available"
+    },
+    {
+      "installationId": 1,
+      "componentId": 1,
+      "parentObjectId": 1,
+      "objectId": 8,
+      "objectName": "string",
+      "parentObjectName": "Test_name_edit",
+      "status": "planned"
+    },
+    {
+      "installationId": 34,
+      "componentId": 1,
+      "parentObjectId": 1,
+      "objectId": 1,
+      "objectName": "demo3-db",
+      "parentObjectName": "Test_name_edit",
+      "status": "planned"
+    },
+    {
+      "installationId": 20,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 9,
+      "objectName": "База данных с длинным наименованием для проверки профиля сервера приложений",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    },
+    {
+      "installationId": 34,
+      "componentId": 1,
+      "parentObjectId": 1,
+      "objectId": 10,
+      "objectName": "editDatabase",
+      "parentObjectName": "Test_name_edit",
+      "status": "planned"
+    },
+    {
+      "installationId": 33,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 11,
+      "objectName": "DDK_database_2",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    },
+    {
+      "installationId": 33,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 12,
+      "objectName": "DDK_database_3",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    },
+    {
+      "installationId": 57,
+      "componentId": 1,
+      "parentObjectId": 2,
+      "objectId": 13,
+      "objectName": "test_1804",
+      "parentObjectName": "Test_name",
+      "status": "available"
+    },
+    {
+      "installationId": 53,
+      "componentId": 1,
+      "parentObjectId": 3,
+      "objectId": 14,
+      "objectName": "новая_бд",
+      "parentObjectName": "DDK_test_dbms_renamed",
+      "status": "available"
+    }
+  ]
+}

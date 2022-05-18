@@ -8,7 +8,7 @@ from _core.functions import send_message, get_message, get_uuid
 topic = 'dq-netstore-command'
 
 fileName = ''
-message = '{"sender": "test", "name": null, "exactName": "Netstore 1"}'
+message = '{"sender": "test", "name": null, "exactName": null}'
 
 headers = [
     ('dqMessageGuid', get_uuid()),

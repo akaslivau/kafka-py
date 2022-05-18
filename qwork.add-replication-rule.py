@@ -8,7 +8,8 @@ from _core.functions import send_message, get_message, get_uuid
 topic = 'dq-qis-add-image-rule'
 
 fileName = ''
-message = '{"repoId":8,"imageStorageId":1,"images":["itcmsa"],"runTypeId":1,"day":null,"hour":null,"minute":null,"grade":"3"}'
+message = '{"repoId":46,"imageStorageId":1,"images":["itcmsaui"],"runTypeId":1,"day":null,"hour":null,"minute":null,' \
+          '"grade":"3"} '
 
 headers = [
     ('dqMessageGuid', get_uuid()),

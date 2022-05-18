@@ -5,10 +5,10 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message
 
 # INPUT
-topic = 'dq-itcdb-command'
+topic = 'dq-didyk-test'
 
 fileName = ''
-message = '"get-all-db"'
+message = 'pidorasina'
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),

@@ -1,0 +1,77 @@
+{
+  "sender": "itchost",
+  "tStore": [
+    {
+      "name": "Hard 1/alex test",
+      "id": 5,
+      "size": 12,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 2/testname66777",
+      "id": 6,
+      "size": 13,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 3/tesst15",
+      "id": 8,
+      "size": 550,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 2/test_01",
+      "id": 9,
+      "size": 2565,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 2/туц туц",
+      "id": 13,
+      "size": 550,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 3/newName",
+      "id": 15,
+      "size": 55,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 3/new name",
+      "id": 14,
+      "size": 55,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 1/testjjj",
+      "id": 17,
+      "size": 666,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 1/ввввввв",
+      "id": 18,
+      "size": 333,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 16_test",
+      "id": 16,
+      "size": 256,
+      "sizeFree": -1
+    },
+    {
+      "name": "Hard 7 test_t",
+      "id": 7,
+      "size": 999,
+      "sizeFree": -1
+    },
+    {
+      "name": "nkb/2789747",
+      "id": 21,
+      "size": 111,
+      "sizeFree": -1
+    }
+  ]
+}

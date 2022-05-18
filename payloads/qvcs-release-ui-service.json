@@ -1,0 +1,13 @@
+{
+  "ReleasedConfElementComposition": {
+    "name": "qitcatui:1.29.01-22051207",
+    "path": "registry-ext.diasoft.ru/release/qitcatui:1.29.01-22051207",
+    "registryPath": "release",
+    "registryServer": "registry-ext.diasoft.ru",
+    "releasedConfElementCompositionId": "15098",
+    "releasedConfElementId": "3633",
+    "releasedConfElementObjTypeId": "5"
+  },
+  "confElementName": "qitcatui",
+  "version": "1.29.01-22051207"
+}

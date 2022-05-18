@@ -1,239 +1,53 @@
 [
   {
-    "imageId": 4727,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 2,
-    "repository": "work",
-    "name": "prod/additionalfiles-property-flexcm",
-    "msName": "flexcm",
-    "version": "1.01.01-22040802",
-    "updatedAt": "2022-04-08T12:09:54.179",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4728,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 2,
-    "repository": "work",
-    "name": "prod/flexcm",
-    "msName": "flexcm",
-    "version": "1.01.01-22040802",
-    "updatedAt": "2022-04-08T12:09:46.290",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4729,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 2,
-    "repository": "work",
-    "name": "prod/database-flexcm",
-    "msName": "flexcm",
-    "version": "1.01.01-22040802",
-    "updatedAt": "2022-04-08T12:09:33.171",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4520,
+    "imageId": 4391,
     "imageStorageId": 1,
     "imageStorage": "qwork-registry",
     "repositoryId": 1,
     "repository": "release",
-    "name": "qcmconfelement",
-    "msName": "qcmconfelement",
-    "version": "1.09.01-HF003-22040802",
-    "updatedAt": "2022-04-08T12:21:34.690",
+    "name": "qisimagestorage",
+    "msName": "qisimagestorage",
+    "version": "1.03.01-HF005-22042101",
+    "updatedAt": "2022-04-22T08:01:42.474",
     "pbc": {
-      "id": 1619369583675,
-      "name": "Конфигурационное управление",
-      "sysName": "QCM"
+      "id": 1640601653377,
+      "name": "Хранилище образов",
+      "sysName": "QIS"
     },
-    "platform": {
-      "id": 33,
-      "name": "Система контроля версий"
-    }
-  },
-  {
-    "imageId": 4521,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "database-qcmconfelement",
-    "msName": "qcmconfelement",
-    "version": "1.09.01-HF003-22040802",
-    "updatedAt": "2022-04-08T12:21:29.484",
-    "pbc": {
-      "id": 1619369583675,
-      "name": "Конфигурационное управление",
-      "sysName": "QCM"
-    },
-    "platform": {
-      "id": 33,
-      "name": "Система контроля версий"
-    }
-  },
-  {
-    "imageId": 4522,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "additionalfiles-property-qcmconfelement",
-    "msName": "qcmconfelement",
-    "version": "1.09.01-HF003-22040802",
-    "updatedAt": "2022-04-08T12:21:28.956",
-    "pbc": {
-      "id": 1619369583675,
-      "name": "Конфигурационное управление",
-      "sysName": "QCM"
-    },
-    "platform": {
-      "id": 33,
-      "name": "Система контроля версий"
-    }
-  },
-  {
-    "imageId": 4809,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "qsftcmdelivery",
-    "msName": "qsftcmdelivery",
-    "version": "1.08.01-22040801",
-    "updatedAt": "2022-04-08T12:14:00.724",
-    "pbc": {
-      "id": 1647844172691,
-      "name": "Планирование поставок",
-      "sysName": "QSFTCM"
-    },
-    "platform": {
-      "id": 30,
-      "name": "Управление конфигурациями"
-    }
-  },
-  {
-    "imageId": 4810,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "database-qsftcmdelivery",
-    "msName": "qsftcmdelivery",
-    "version": "1.08.01-22040801",
-    "updatedAt": "2022-04-08T12:13:56.115",
-    "pbc": {
-      "id": 1647844172691,
-      "name": "Планирование поставок",
-      "sysName": "QSFTCM"
-    },
-    "platform": {
-      "id": 30,
-      "name": "Управление конфигурациями"
-    }
-  },
-  {
-    "imageId": 4811,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "additionalfiles-property-qsftcmdelivery",
-    "msName": "qsftcmdelivery",
-    "version": "1.08.01-22040801",
-    "updatedAt": "2022-04-08T12:13:55.261",
-    "pbc": {
-      "id": 1647844172691,
-      "name": "Планирование поставок",
-      "sysName": "QSFTCM"
-    },
-    "platform": {
-      "id": 30,
-      "name": "Управление конфигурациями"
-    }
-  },
-  {
-    "imageId": 4335,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "database-mdproles",
-    "msName": "mdproles",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T11:50:49.555",
-    "pbc": null,
     "platform": null
   },
   {
-    "imageId": 4356,
+    "imageId": 4393,
     "imageStorageId": 1,
     "imageStorage": "qwork-registry",
     "repositoryId": 1,
     "repository": "release",
-    "name": "additionalfiles-property-mdproles",
-    "msName": "mdproles",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T11:51:00.111",
-    "pbc": null,
+    "name": "database-qisimagestorage",
+    "msName": "qisimagestorage",
+    "version": "1.03.01-HF005-22042101",
+    "updatedAt": "2022-04-22T08:01:44.963",
+    "pbc": {
+      "id": 1640601653377,
+      "name": "Хранилище образов",
+      "sysName": "QIS"
+    },
     "platform": null
   },
   {
-    "imageId": 4380,
+    "imageId": 4395,
     "imageStorageId": 1,
     "imageStorage": "qwork-registry",
     "repositoryId": 1,
     "repository": "release",
-    "name": "mdproles",
-    "msName": "mdproles",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T11:52:17.093",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4529,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "mdpmeta",
-    "msName": "mdpmeta",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T09:25:23.026",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4530,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "database-mdpmeta",
-    "msName": "mdpmeta",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T09:24:42.226",
-    "pbc": null,
-    "platform": null
-  },
-  {
-    "imageId": 4531,
-    "imageStorageId": 1,
-    "imageStorage": "qwork-registry",
-    "repositoryId": 1,
-    "repository": "release",
-    "name": "additionalfiles-property-mdpmeta",
-    "msName": "mdpmeta",
-    "version": "9.06.01-22033101",
-    "updatedAt": "2022-04-08T09:24:43.586",
-    "pbc": null,
+    "name": "additionalfiles-property-qisimagestorage",
+    "msName": "qisimagestorage",
+    "version": "1.03.01-HF005-22042101",
+    "updatedAt": "2022-04-22T08:01:37.441",
+    "pbc": {
+      "id": 1640601653377,
+      "name": "Хранилище образов",
+      "sysName": "QIS"
+    },
     "platform": null
   }
 ]

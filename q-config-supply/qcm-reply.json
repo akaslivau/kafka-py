@@ -1,0 +1,72 @@
+{
+  "supplyId" : "749",
+  "supplyName" : "18_05_22_тест",
+  "supplyType" : "Продуктовая",
+  "pbcList" : [ {
+    "pbcSysName" : "QCM",
+    "pbcBriefName" : "Configuration Management",
+    "pbcLocalfName" : "Конфигурационное управление",
+    "reasonList" : [ {
+      "reasonName" : "DESIRED"
+    }, {
+      "reasonName" : "QCI"
+    }, {
+      "reasonName" : "QGAR"
+    } ],
+    "msInfoList" : [ {
+      "msSysName" : "qcmreleasedconfelement",
+      "msBriefName" : "qcmreleasedconfelement",
+      "msLocalName" : "qcmreleasedconfelement",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "db"
+      } ]
+    }, {
+      "msSysName" : "qcmcomposition",
+      "msBriefName" : "qcmcomposition",
+      "msLocalName" : "qcmcomposition",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "db"
+      }, {
+        "msOptName" : "events"
+      } ]
+    }, {
+      "msSysName" : "qcmconfelement",
+      "msBriefName" : "qcmconfelement",
+      "msLocalName" : "qcmconfelement",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "db"
+      } ]
+    } ]
+  }, {
+    "pbcSysName" : "QGAR",
+    "pbcBriefName" : "Address reference of GAR",
+    "pbcLocalfName" : "Справочник адресов ГАР",
+    "reasonList" : [ {
+      "reasonName" : "QCM"
+    } ],
+    "msInfoList" : [ {
+      "msSysName" : "qgarui",
+      "msBriefName" : "qgarui",
+      "msLocalName" : "qgarui",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ ]
+    }, {
+      "msSysName" : "qgar",
+      "msBriefName" : "qgar",
+      "msLocalName" : "qgar",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ ]
+    } ]
+  }, {
+    "pbcSysName" : "QCI",
+    "pbcBriefName" : "Continuous Integration",
+    "pbcLocalfName" : "Сборка",
+    "reasonList" : [ {
+      "reasonName" : "QCM"
+    } ],
+    "msInfoList" : [ ]
+  } ]
+}

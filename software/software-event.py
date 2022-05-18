@@ -8,7 +8,7 @@ from _core.functions import send_message, get_message, get_uuid
 topic = 'dq-itcsw-software-event'
 
 fileName = ''
-message = '{"kVersion":null,"name":"MSA_PO_TO_REMOVE","id":86}'
+message = '{"kVersion":[],"name":"LoadBalancer_Software_Test","id":88}'
 
 headers = [
     ('dqMessageGuid', get_uuid()),

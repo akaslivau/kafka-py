@@ -1,0 +1,35 @@
+{
+  "msList": [
+    {
+      "rollback": false,
+      "imageList": [
+        {
+          "imageName": "qcmconfelement",
+          "imageVersion": "1.14.01-22041401",
+          "registryUrl": "registry-new.diasoft.ru/dvt/qvcs/dev/qcmconfelement:latest"
+        },
+        {
+          "imageName": "database-qcmconfelement",
+          "imageVersion": "1.14.01-22041401",
+          "registryUrl": "registry-new.diasoft.ru/dvt/qvcs/dev/database-qcmconfelement:latest"
+        },
+        {
+          "imageName": "additionalfiles-property-qcmconfelement",
+          "imageVersion": "1.14.01-22041401",
+          "registryUrl": "registry-new.diasoft.ru/dvt/qvcs/dev/additionalfiles-property-qcmconfelement:latest"
+        }
+      ],
+      "autotest": false,
+      "name": "qcmconfelement"
+    }
+  ],
+  "userLogin": "vbolshakov",
+  "standType": "dev",
+  "is3Layer": false,
+  "is2Layer": false,
+  "isClient": false,
+  "isDC": false,
+  "isInternal": true,
+  "isMSA": true,
+  "team": null
+}

@@ -5,20 +5,20 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'qcm-releasedconfelementcomposition-add-event'
+topic = 'dq-itcdb-response'
 
-fileName = 'payloads/qvcs-release-real-qwork.json'
+fileName = '../payloads/all-db-new.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', get_uuid()),
     ('contentType', b'application/json'),
-    ('dqCommandName', str.encode('any command')),
+    ('dqCommandName', str.encode('get-all-db-response')),
     ('spring_json_header_types', b'{"replyChannel":"java.lang.String","b3":"java.lang.String","nativeHeaders":"org.springframework.util.LinkedMultiValueMap","contentType":"java.lang.String","x-dsft-login":"java.lang.String"}'),
     ('b3', get_uuid()),
-    ('__TypeId__', b'ru.diasoft.micro.dto.qarcher.DQPBCPlatformCommandInfo'),
+    ('__TypeId__', b'ru.diasoft.micro.model.DqItcdbResponseMessageData'),
     ('mark', b'test-message')
 ]
 
 #  SOURCE CODE
-send_message(Brokers.QCMDB.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.PUBUNTU.value, topic, get_message(fileName, message), headers)

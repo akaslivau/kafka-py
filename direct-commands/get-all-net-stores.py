@@ -8,7 +8,7 @@ from _core.functions import send_message, get_message, get_uuid
 topic = 'dq-space-netstore-command'
 
 fileName = ''
-message = '{"sender": "test", "spaceNames": ["Space_1", "Space_3"]}'
+message = '{"sender": "test", "spaceNames": ["didyk_test", "litvina_test", "oooosdfsdgsdgsdgsdgsdf"]}'
 
 headers = [
     ('dqMessageGuid', get_uuid()),
@@ -21,7 +21,7 @@ headers = [
 
 
 #  SOURCE CODE
-send_message(Brokers.PUBUNTU.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.QCMDB.value, topic, get_message(fileName, message), headers)
 
 
 
