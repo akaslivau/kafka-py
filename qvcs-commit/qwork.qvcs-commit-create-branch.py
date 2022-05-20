@@ -8,7 +8,7 @@ from _core.functions import send_message, get_message
 # INPUT
 topic = 'qvcs-commit-create-command'
 
-fileName = 'payloads/qvcs-commit-add-files.json'
+fileName = '../payloads/qvcs-commit-create-branch.json'
 message = ''
 
 headers = [

@@ -7,7 +7,7 @@ from _core.functions import send_message, get_message
 # INPUT
 topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-command'
 
-fileName = 'payloads/stand-update-conf-command.json'
+fileName = '../payloads/stand-update-conf-command.json'
 message = ''
 
 headers = [

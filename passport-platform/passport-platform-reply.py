@@ -5,7 +5,7 @@ from _core.functions import send_message, get_message, get_uuid
 # INPUT
 topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
 
-fileName = 'payloads/platform-null-reply.json'
+fileName = '../payloads/platform-null-reply.json'
 message = ''
 
 headers = [

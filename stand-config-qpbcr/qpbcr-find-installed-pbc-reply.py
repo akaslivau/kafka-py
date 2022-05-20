@@ -5,7 +5,7 @@ from _core.functions import send_message, get_message, get_uuid
 # INPUT
 topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-reply'
 
-fileName = './payloads/stand-update-conf-reply.json'
+fileName = '../payloads/stand-update-conf-reply.json'
 message = ''
 
 headers = [

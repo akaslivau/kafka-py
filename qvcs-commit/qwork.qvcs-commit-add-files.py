@@ -2,16 +2,19 @@ import uuid
 
 # User settings
 from _core.brokers import Brokers
+from _core.diasoft_enums import DQCommandStatus
 from _core.functions import send_message, get_message
 
 # INPUT
-topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-reply'
+topic = 'qvcs-commit-create-command'
 
-fileName = 'payloads/stand-update-conf-reply.json'
+fileName = '../payloads/qvcs-commit-add-files.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
+    ('dqCommandName', str.encode('create-commit')),
+    ('dqCommandStatus', DQCommandStatus.OK.value),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

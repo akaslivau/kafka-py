@@ -7,7 +7,7 @@ from _core.functions import send_message, get_message, get_uuid
 # INPUT
 topic = 'dq-qsftcmdelivery-qis-image-check-response'
 
-fileName = 'payloads/qis-images-response.json'
+fileName = '../payloads/qis-images-response.json'
 message = ''
 
 headers = [

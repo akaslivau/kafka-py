@@ -2,17 +2,16 @@ import uuid
 
 # User settings
 from _core.brokers import Brokers
-from _core.functions import send_message, get_message, get_uuid
+from _core.functions import send_message, get_message
 
 # INPUT
-topic = 'dq-qis-new-image-event'
+topic = 'dq-dqqpbcr-installed-pbc-find-installedpbc-reply'
 
-fileName = 'payloads/qworktest-new-image-event.json'
+fileName = '../payloads/stand-update-conf-reply.json'
 message = ''
 
 headers = [
-    ('dqMessageGuid', get_uuid()),
-    ('dqCommand', str.encode('new-image-event')),
+    ('dqMessageGuid', str.encode(str(uuid.uuid4()))),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

@@ -7,7 +7,7 @@ from _core.functions import send_message, get_message, get_uuid
 # INPUT
 topic = 'qcm-releasedconfelementcomposition-add-event'
 
-fileName = 'payloads/qvcs-release-real-qwork.json'
+fileName = 'qvcs-release-real-qwork.json'
 message = ''
 
 headers = [
