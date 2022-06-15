@@ -1,0 +1,37 @@
+{
+  "msList": [
+    {
+      "rollback": false,
+      "imageList": [
+        {
+          "imageName": "qcmconfelement",
+          "imageVersion": "22052301",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/database-qcmconfelement:22052301"
+        },
+        {
+          "imageName": "qcmconfelement",
+          "imageVersion": "22052301",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/qcmconfelement:22052301"
+        },
+        {
+          "imageName": "qcmconfelement",
+          "imageVersion": "22052301",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/additionalfiles-property-qcmconfelement:22052301"
+        }
+      ],
+      "autotest": false,
+      "name": "qcmconfelement"
+    }
+  ],
+  "userLogin": "vbolshakov",
+  "standType": "dev",
+  "is3Layer": false,
+  "is2Layer": false,
+  "isClient": false,
+  "isDC": false,
+  "isInternal": true,
+  "isMSA": true,
+  "team": null,
+  "addRelatedPbc": false,
+  "installationNames": []
+}

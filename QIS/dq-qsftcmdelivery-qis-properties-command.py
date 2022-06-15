@@ -5,14 +5,13 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-qis-new-image-event'
+topic = 'dq-qsftcmdelivery-qis-properties-command'
 
-fileName = 'qi-idea-error.json'
+fileName = 'properties-comand.json'
 message = ''
 
 headers = [
     ('dqMessageGuid', get_uuid()),
-    ('dqCommand', str.encode('new-image-event')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

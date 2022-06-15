@@ -5,13 +5,13 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'qworktest-dq-qconfigsupply-configsupply-command-reply2'
+topic = 'qwork-dq-qconfigsupply-configsupply-command2'
 
-fileName = 'qiidea-reply.json'
+fileName = 'config-supply-command-single-pbc.json'
 message = ''
 
 headers = [
-    ('dqMessageGuid', b'd532310b-ccd5-4e3f-826d-f3621fc3fcb3'),
+    ('dqMessageGuid', get_uuid()),
     ('contentType', b'application/json'),
     ('dqCommandName', b'create'),
     ('dqCommandStatus', b'ok'),
@@ -21,4 +21,4 @@ headers = [
 ]
 
 #  SOURCE CODE
-send_message(Brokers.QWORKTEST.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.ARE_YOU_SURE_QWORK.value, topic, get_message(fileName, message), headers)

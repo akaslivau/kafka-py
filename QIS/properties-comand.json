@@ -1,0 +1,16 @@
+{
+  "storageId": 1,
+  "repositoryId": 46,
+  "serviceList": [
+    {
+      "name": "itcmsa",
+      "optionList": [],
+      "version": "1.04.01-22041801"
+    },
+    {
+      "name": "qodm",
+      "optionList": [],
+      "version": "22051701"
+    }
+  ]
+}

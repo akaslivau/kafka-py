@@ -1,0 +1,52 @@
+{
+  "supplyId" : "863",
+  "supplyName" : "autodelivery-2022-05-31T15:57:10.376+03:00",
+  "supplyType" : "Продуктовая",
+  "pbcList" : [ {
+    "pbcSysName" : "QI",
+    "pbcBriefName" : "Ideas",
+    "pbcLocalfName" : "Идеи",
+    "reasonList" : [ {
+      "reasonName" : "DESIRED"
+    } ],
+    "msInfoList" : [ {
+      "msSysName" : "qiidea",
+      "msBriefName" : "qiidea",
+      "msLocalName" : "qiidea",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "db"
+      }, {
+        "msOptName" : "events"
+      } ]
+    }, {
+      "msSysName" : "qicomposition",
+      "msBriefName" : "qicomposition",
+      "msLocalName" : "qicomposition",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "events"
+      } ]
+    }, {
+      "msSysName" : "qiideaprocessingplan",
+      "msBriefName" : "qiideaprocessingplan",
+      "msLocalName" : "qiideaprocessingplan",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "db"
+      }, {
+        "msOptName" : "events"
+      } ]
+    }, {
+      "msSysName" : "qiideareference",
+      "msBriefName" : "qiideareference",
+      "msLocalName" : "qiideareference",
+      "msImgInfoList" : [ ],
+      "msOptInfoList" : [ {
+        "msOptName" : "events"
+      }, {
+        "msOptName" : "db"
+      } ]
+    } ]
+  } ]
+}

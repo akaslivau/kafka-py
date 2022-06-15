@@ -3,13 +3,14 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-didyk-topic-command'
+topic = 'dq-qwork-delivery-event'
 
 fileName = ''
-message = '{"param1":"test", "param2":"123457", "eventCorrelationId":"f5b44ccb-656f-4495-b482-a3f489e9de99"}'
+message = '{"statusId":1, "correlationId": "1dad9c25-d5da-4c6d-9db5-6f25dda0441e"}'
 
 headers = [
-    # ('correlationId', b'75a728ae-da95-4907-85a2-9a8f42623898'),
+    ('correlationId', b'1dad9c25-d5da-4c6d-9db5-6f25dda0441e'),
+    ('dqMessageGuid', b'1dad9c25-d5da-4c6d-9db5-6f25dda0441e'),
     ('dqCommandName', b'not-matter'),
     ('specialMark', b'send-manually-by-didyk')
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "imageId": 4061,
+    "imageStorageId": 1,
+    "imageStorage": "qwork-registry",
+    "repositoryId": 46,
+    "repository": "release",
+    "name": "itcmsa",
+    "msName": "itcmsa",
+    "version": "1.04.01-HF001-22042502",
+    "updatedAt": "2022-05-19T10:45:35.744",
+    "pbc": {
+      "id": 1617622811539,
+      "name": "Каталог IT - компонент",
+      "sysName": "QITCAT"
+    },
+    "platform": {
+      "id": 30,
+      "name": "Управление конфигурациями"
+    }
+  }
+]

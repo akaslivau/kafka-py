@@ -1,0 +1,39 @@
+{
+  "msList": [
+    {
+      "rollback": false,
+      "imageList": [
+        {
+          "imageName": "database-qtestdtestbo",
+          "imageVersion": "22061403",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/database-qtestdtestbo:22060904"
+        },
+        {
+          "imageName": "qtestdtestbo",
+          "imageVersion": "22061403",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/qtestdtestbo:22060904"
+        },
+        {
+          "imageName": "additionalfiles-property-qtestdtestbo",
+          "imageVersion": "22061403",
+          "registryUrl": "registry-new.diasoft.ru/dvt/development/dev/additionalfiles-property-qtestdtestbo:22060904"
+        }
+      ],
+      "autotest": false,
+      "name": "qtestdtestbo"
+    }
+  ],
+  "userLogin": null,
+  "standType": "autotest",
+  "is3Layer": false,
+  "is2Layer": false,
+  "isClient": false,
+  "isDC": false,
+  "isInternal": true,
+  "isMSA": true,
+  "team": "Технологические платформы Q.DevOps, Q.Task, Q.VCS",
+  "installationNames": [
+    "qvcs"
+  ],
+  "addRelatedPbc": false
+}

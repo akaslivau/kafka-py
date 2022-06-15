@@ -5,9 +5,9 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'qwork-dq-qdevops-qsftcmdelivery-command'
+topic = 'dq-qdevops-qsftcmdelivery-command'
 
-fileName = 'devops-10-06-22.json'
+fileName = 'devops-only-names.json'
 message = ''
 
 headers = [
@@ -16,4 +16,4 @@ headers = [
 ]
 
 #  SOURCE CODE
-send_message(Brokers.ARE_YOU_SURE_QWORK.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.QWORKTEST.value, topic, get_message(fileName, message), headers)

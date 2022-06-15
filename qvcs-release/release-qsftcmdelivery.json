@@ -1,0 +1,13 @@
+{
+  "ReleasedConfElementComposition": {
+    "registryServer": "registry-ext.diasoft.ru",
+    "releasedConfElementCompositionId": 23507,
+    "registryPath": "release",
+    "path": "registry-ext.diasoft.ru/release/qsftcmdelivery:22060101",
+    "name": "qsftcmdelivery:22060101",
+    "releasedConfElementObjTypeId": 5,
+    "releasedConfElementId": 5329
+  },
+  "version": "22060101",
+  "confElementName": "qsftcmdelivery"
+}

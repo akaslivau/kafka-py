@@ -1,0 +1,36 @@
+{
+  "deliveryId": 859,
+  "installationId": 1,
+  "schemas": [
+    {
+      "id": 61,
+      "name": "qiideamsgbot",
+      "description": "created automatically",
+      "installationId": 1
+    },
+    {
+      "id": 62,
+      "name": "qicomposition",
+      "description": "created automatically",
+      "installationId": 1
+    },
+    {
+      "id": 63,
+      "name": "qiideaprocessingplan",
+      "description": "created automatically",
+      "installationId": 1
+    },
+    {
+      "id": 64,
+      "name": "qiidea",
+      "description": "created automatically",
+      "installationId": 1
+    },
+    {
+      "id": 65,
+      "name": "qiideareference",
+      "description": "created automatically",
+      "installationId": 1
+    }
+  ]
+}

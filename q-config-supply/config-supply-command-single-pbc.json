@@ -1,0 +1,22 @@
+{
+  "supplyName": "test",
+  "supplyId": -1,
+  "installationId": null,
+  "supplyType": "Продуктовая",
+  "standName": "qwork",
+  "namespace": "qwork",
+  "pbcList": [
+    {
+      "pbcSysName": "QREL",
+      "pbcName": "QREL",
+      "pbcVersion": "n/a",
+      "architecture": null,
+      "branch": null,
+      "platform": null,
+      "msInfoList": null
+    }
+  ],
+  "projectId": null,
+  "responsibleId": null,
+  "standParamList": null
+}

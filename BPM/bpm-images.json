@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "imageId": 4060,
+      "imageStorageId": 1,
+      "imageStorage": "qwork-registry",
+      "repositoryId": 46,
+      "repository": "release",
+      "name": "qiideamsgbot",
+      "msName": "qiideamsgbot",
+      "version": "22052301",
+      "updatedAt": "2022-05-19T10:45:46.635",
+      "pbc": {
+        "id": 1631540518356,
+        "name": "Идеи",
+        "sysName": "QI"
+      },
+      "platform": {
+        "id": 15,
+        "name": "Управление требованиями"
+      }
+    },
+    {
+      "imageId": 4061,
+      "imageStorageId": 1,
+      "imageStorage": "qwork-registry",
+      "repositoryId": 47,
+      "repository": "release",
+      "name": "database-qiideamsgbot",
+      "msName": "qiideamsgbot",
+      "version": "22052301",
+      "updatedAt": "2022-05-19T10:45:46.635",
+      "pbc": {
+        "id": 1631540518356,
+        "name": "Идеи",
+        "sysName": "QI"
+      },
+      "platform": {
+        "id": 15,
+        "name": "Управление требованиями"
+      }
+    }
+  ]
+}

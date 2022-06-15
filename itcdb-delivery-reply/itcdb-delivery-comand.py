@@ -1,18 +1,17 @@
-import uuid
-
 # User settings
 from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-qis-new-image-event'
+topic = 'qworktest-dq-itcdb-command'
 
-fileName = 'qi-idea-error.json'
-message = ''
+fileName = ''
+message = '{"deliveryId":859,"installationId":1,"msNames":["qiideamsgbot","qicomposition","qiideaprocessingplan",' \
+          '"qiidea","qiideareference"]} '
 
 headers = [
     ('dqMessageGuid', get_uuid()),
-    ('dqCommand', str.encode('new-image-event')),
+    ('dqCommandName', b'schema_create_batch'),
     ('specialMark', b'send-manually-by-didyk')
 ]
 

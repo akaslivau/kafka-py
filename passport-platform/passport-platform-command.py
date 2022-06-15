@@ -3,7 +3,7 @@ from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-command'
+topic = 'qworktest-dq-servdsgnpassport-after-dq-servdsgnpassportpbc-command'
 
 fileName = ''
 message = '{"dQPBCPlatformCommandList":[{"microServName":"ITCMSA"}]}'
@@ -19,4 +19,4 @@ headers = [
 ]
 
 #  SOURCE CODE
-send_message(Brokers.PUBUNTU.value, topic, get_message(fileName, message), headers)
+send_message(Brokers.QWORKTEST.value, topic, get_message(fileName, message), headers)

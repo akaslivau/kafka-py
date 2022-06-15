@@ -1,16 +1,19 @@
+import uuid
+
 # User settings
 from _core.brokers import Brokers
 from _core.functions import send_message, get_message, get_uuid
 
 # INPUT
-topic = 'dq-servdsgnpassport-after-dq-servdsgnpassportpbc-reply'
+topic = 'dq-qis-new-image-event3'
 
+guid = str(uuid.uuid4())
+get_uuid()
 fileName = ''
-message = ''
+message = '{"param1":5, "correlationId": "' + guid + '"}'
 
 headers = [
-    ('dqMessageGuid', b'33f39c68-eafb-4de7-baa2-e7854bd55a16'),
-    ('dqCommandName', b'not-matter'),
+    ('dqCommand', str.encode('new-image-event')),
     ('specialMark', b'send-manually-by-didyk')
 ]
 
